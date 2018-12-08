@@ -1,9 +1,9 @@
 body {
-     background-color: lightgrey;
-     margin: 0;
-     font-family: Helvetica, "Helvetica Neue", SansSerif;
-     padding-top: 0px;
- }
+    background-color: lightgrey;
+    margin: 0;
+    font-family: Helvetica, "Helvetica Neue", SansSerif;
+    padding-top: 0px;
+}
 
 h1 {
     color: black;
@@ -45,76 +45,87 @@ a.link:visited {
 }
 
 #wrapper {
-width: 960px;
-margin-left: 200px;
-margin-right: auto;
+    width: 80%;
+    margin-left: 220px;
+    margin-right: auto;
 }
 
 #menu {
-background-color: antiquewhite;
-height: 80px;
-line-height: 80px;
-width: 368px;
+    background-color: antiquewhite;
+    height: 80px;
+    line-height: 80px;
+    width: 368px;
 }
 
 #logo {
-width: 592px;
+    width: 592px;
 }
 
 #menu ul {
-margin: 0px;
+    margin: 0px;
 }
 
 #menu li {
-display: inline;
+    display: inline;
 }
 
 #banner {
-clear: both;
-background: url("../images/attractive-man-dressed-casual-wearing-glasses---studio-shot-copy-space.jpg&size=1024") no-repeat;
-background-size: contain;
-height: 500px;
+    clear: both;
+    background: url("../images/attractive-man-dressed-casual-wearing-glasses---studio-shot-copy-space.jpg&size=1024") no-repeat;
+    background-size: 100%;
+    padding-bottom: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero-text {
-position: relative;
-background-color: white;
-width: 367px;
-top: 50px;
-left: 100px;
+    position: relative;
+    width: 367px;
+    top: 0em;
+    left: 100px;
+    font-size: xx-large;
 }
 
 #hero-text h1 {
-margin: 0px;
+    margin: 0px;
 }
+
 .std-padding {
-padding-left: 31px;
-padding-right: 31px;
+    padding-left: 31px;
+    padding-right: 31px;
 }
 
 #content {
-width: 544px;
-background-color: green;
-padding-left: 24px;
-padding-right: 24px;
-line-height: 27px;
+    width: 544px;
+    background-color: green;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 27px;
 }
+
 #footer {
-background-color: bisque;
+    background-color: bisque;
 
 }
 
 .centerText {
-text-align: center;
+    text-align: center;
 
+}
+
+#bbox{
 }
 
 #panel1, #panel2, #panel3 {
-width: 256px;
+    width: 28%;
+    background-color: #0A1612;
+    color: #cccccc;
+    padding-bottom: 50px;
+    position: relative;
 }
 
-#panel3 {
-background-color: green;
+#panel1 h1, #panel2 h1, #panel3 h1 {
+    color: #cccccc;
 }
 
 .floatLeft {
@@ -122,13 +133,12 @@ background-color: green;
 }
 
 .clear-fix {
-    clear:both;
+    clear: both;
 }
 
-
 .favorite_colour {
-background-color: #0e278e;
-color: white
+    background-color: #0e278e;
+    color: white
 }
 
 .center {
@@ -208,11 +218,11 @@ a:hover {
 }
 
 .active {
-background-color: #4CAF50;
+    background-color: #4CAF50;
 }
 
 .header {
-position: relative
+    position: relative
 }
 
 img.resize {
@@ -256,4 +266,36 @@ ol.designElements {
 #logo {
     width: 167px;
     padding-right: 0px;
+}
+img {
+    min-height: 50px;
+}
+
+img:before {
+    content: " ";
+    display: block;
+
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: calc(100% + 10px);
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    border: 2px dotted rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+img:after {
+    content: "\f127" " Broken Image of " attr(alt);
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-family: FontAwesome;
+    color: rgb(100, 100, 100);
+
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
