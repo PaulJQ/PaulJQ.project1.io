@@ -1,0 +1,259 @@
+body {
+     background-color: lightgrey;
+     margin: 0;
+     font-family: Helvetica, "Helvetica Neue", SansSerif;
+     padding-top: 0px;
+ }
+
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+}
+
+a.external_link {
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+    width: 80%;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #FF5733;
+    background-color: orange;
+}
+
+a.largen {
+    font-size: 2em;
+
+}
+
+a.link:hover {
+    background-color: #1A2930;
+    color: #FF5733;
+}
+
+a.link:visited {
+    color: #33FF57
+}
+
+#wrapper {
+width: 960px;
+margin-left: 200px;
+margin-right: auto;
+}
+
+#menu {
+background-color: antiquewhite;
+height: 80px;
+line-height: 80px;
+width: 368px;
+}
+
+#logo {
+width: 592px;
+}
+
+#menu ul {
+margin: 0px;
+}
+
+#menu li {
+display: inline;
+}
+
+#banner {
+clear: both;
+background: url("../images/attractive-man-dressed-casual-wearing-glasses---studio-shot-copy-space.jpg&size=1024") no-repeat;
+background-size: contain;
+height: 500px;
+}
+
+#hero-text {
+position: relative;
+background-color: white;
+width: 367px;
+top: 50px;
+left: 100px;
+}
+
+#hero-text h1 {
+margin: 0px;
+}
+.std-padding {
+padding-left: 31px;
+padding-right: 31px;
+}
+
+#content {
+width: 544px;
+background-color: green;
+padding-left: 24px;
+padding-right: 24px;
+line-height: 27px;
+}
+#footer {
+background-color: bisque;
+
+}
+
+.centerText {
+text-align: center;
+
+}
+
+#panel1, #panel2, #panel3 {
+width: 256px;
+}
+
+#panel3 {
+background-color: green;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.clear-fix {
+    clear:both;
+}
+
+
+.favorite_colour {
+background-color: #0e278e;
+color: white
+}
+
+.center {
+    text-align: center;
+}
+
+.holder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    list-style: none none;
+    padding: 0;
+}
+
+.navbar li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #1A2930;
+    position: fixed !important;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 16px 0px 16px 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.sidebar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    background-color: #1A2930;
+    color: #cccccc;
+
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.active {
+background-color: #4CAF50;
+}
+
+.header {
+position: relative
+}
+
+img.resize {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.leftContent {
+    float: left;
+    padding-left: 5%;
+    width: 40%
+}
+
+.rightContent {
+    float: right;
+    padding-right: 5%;
+    width: 40%
+}
+
+ol.designElements {
+    padding: 10px 30px;
+    background-color: #aaa;
+    border: 10px solid #3e4444;
+}
+
+.small {
+    font-size: 8px;
+}
+
+.hardRead {
+    background-color: red;
+    color: blue;
+
+}
+
+#currentTime {
+    position: relative;
+    text-align: right;
+}
+
+#logo {
+    width: 167px;
+    padding-right: 0px;
+}
