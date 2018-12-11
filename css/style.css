@@ -114,11 +114,13 @@ a.link:visited {
 }
 
 #panel1, #panel2, #panel3 {
-    width: 28%;
+    width: 25%;
     background-color: #0A1612;
     color: #cccccc;
     padding-bottom: 50px;
     position: relative;
+    float: left;
+    margin: 1%;
 }
 
 #panel1 h1, #panel2 h1, #panel3 h1 {
